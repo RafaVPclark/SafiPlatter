@@ -1,0 +1,90 @@
+html,body,#home{
+    height: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:#943434 ;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*declarações gerais*/
+h1{
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3{
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+p{
+    color: white;
+}
+/*Navbar*/
+
+nav.navbar-transparente{
+    padding: 15px 0;
+    background:rgba(0, 0, 0, 0.6);
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #9bf0e1;
+}
+
+/*Home*/
+.capa{
+    text-align: center;
+}
+
+.albuns{
+    padding-bottom: 10px;
+    max-height: 350px;
+}
+
+/*PERFIL*/
+
+#Perfil{
+    padding: 15px 0;
+    background: #fff;
+}
+
+#Perfil p{
+    color: #943434;
+}
+
+/*fotos*/
+#Fotos{
+    padding: 50px 0;
+}
+
+.caixa{
+    margin: 50px 0;
+}
+
+/*Produtos*/
+
+#Produtos{
+    background-color: #fff;
+}
+#Produtos p{
+    color: black;
+}
+
+#Produtos h1{
+    color: #943434;
+}
